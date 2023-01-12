@@ -1,0 +1,15 @@
+.copyRight-bgcolor{
+  background-color: #111D29 !important;
+  
+}
+.footer-lasttext{
+  color: #627279 !important;
+  font-size: .8em !important;
+}
+@media (max-width:767.98px){
+  .footer-lasttext{
+    display: flex !important;
+    justify-content: center !important;
+    
+  }
+}

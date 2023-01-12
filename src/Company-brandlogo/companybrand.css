@@ -1,0 +1,31 @@
+.email-info a {
+  color: #9692a0 !important;
+  text-decoration: none;
+  cursor: pointer;
+}
+.requestquote-btn {
+  height: 40px;
+  background: linear-gradient(to left, #ffbb00 50%, #009bb3 50%);
+  padding: 5px 10px;
+  border-radius: 4px;
+
+  background-size: 200% 100%;
+  background-position: right;
+  transition: all 0.5s ease-out;
+}
+.requestquote-btn a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.8em;
+}
+
+.requestquote-btn:hover {
+  background-position: left;
+}
+
+@media (max-width: 767.98px) {
+  img {
+    display: none;
+  }
+}

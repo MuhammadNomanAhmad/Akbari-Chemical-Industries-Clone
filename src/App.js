@@ -1,24 +1,36 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Topnav from './Top-Nav/Topnav';
+import Companybrand from './Company-brandlogo/Companybrand';
+import Navbar from './Navbar/Navbar';
+import NavbarImgslider from '../src/Navbar-Carousel-Image/NavbarImgslider'
+import Product from './Products/Product';
+import Contactus from './Contact/Contactus';
+import Aboutus from './About us/Aboutus';
+import PastEvents from './PastEvents/PastEvents';
+import Getintouch from './Get in Touch/getintouch';
+import Query from './querySection/query';
+import Footer from './Footer/footer';
+import CopyRights from './Copyrights/copyRights';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+     <Topnav/>
+     <Companybrand/>
+     <Navbar/>
+     <NavbarImgslider/>
+     <Product />
+     <Contactus/>
+     <Aboutus/>
+     <PastEvents/>
+     <Getintouch/>
+     <Query/>
+     <Footer/>
+     <CopyRights/>
+     
+    </>
   );
 }
 
