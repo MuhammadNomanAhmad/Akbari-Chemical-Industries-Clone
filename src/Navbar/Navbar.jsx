@@ -2,6 +2,7 @@ import React from 'react'
 import './navbar.css'
 import brandlogo from '../Asset/a_logo_white.png'
 
+
 const Navbar = () => {
   return (
 <nav class="navbar navbar-expand-xl navbar-light navbar-bgcolor    ">

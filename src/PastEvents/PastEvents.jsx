@@ -27,13 +27,13 @@ const PastEvents = () => {
     <div class="carousel-item active">
       {/* <img src="..." class="d-block w-100" alt="..." /> */}
       <div className="row ">
-        <div className="col-sm-4">
+        <div className="col-sm-4 image-container">
           <img src={pasteventimg1} className="img-fluid pastevents-img" alt="" />
         </div>
-        <div className="col-sm-4">
+        <div className="col-sm-4 image-container">
           <img src={pasteventimg2} className="img-fluid pastevents-img" alt="" />
         </div>
-        <div className="col-sm-4">
+        <div className="col-sm-4 image-container">
           <img src={pasteventimg3} className="img-fluid pastevents-img" alt="" />
         </div>
         </div>
@@ -41,13 +41,13 @@ const PastEvents = () => {
     <div class="carousel-item">
       {/* <img src="..." class="d-block w-100" alt="..." /> */}
       <div className="row">
-        <div className="col-sm-4">
+        <div className="col-sm-4 image-container">
           <img src={pasteventimg4} className="img-fluid pastevents-img" alt="" />
         </div>
-        <div className="col-sm-4">
+        <div className="col-sm-4 image-container">
           <img src={pasteventimg5} className="img-fluid pastevents-img" alt="" />
         </div>
-        <div className="col-sm-4">
+        <div className="col-sm-4 image-container">
           <img src={pasteventimg6} className="img-fluid pastevents-img" alt="" />
         </div>
         </div>
@@ -56,13 +56,13 @@ const PastEvents = () => {
     <div class="carousel-item">
       {/* <img src="..." class="d-block w-100" alt="..." /> */}
       <div className="row">
-        <div className="col-sm-4">
+        <div className="col-sm-4 image-container">
           <img src={pasteventimg7} className="img-fluid pastevents-img" alt="" />
         </div>
-        <div className="col-sm-4">
+        <div className="col-sm-4 image-container">
           <img src={pasteventimg8} className="img-fluid pastevents-img" alt="" />
         </div>
-        <div className="col-sm-4">
+        <div className="col-sm-4 image-container">
           <img src={pasteventimg9} className="img-fluid pastevents-img" alt="" />
         </div>
         </div>

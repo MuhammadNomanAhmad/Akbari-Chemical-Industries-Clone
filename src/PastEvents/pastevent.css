@@ -45,3 +45,33 @@
       display: block;
     }
    }
+
+   .image-container{
+    
+    
+   
+    width: 33%;
+    overflow: hidden; 
+   
+   }
+   .pastevents-img{
+    width: 33%;
+    overflow: hidden;
+    position: relative;
+    filter: brightness(100%);
+    transition: .5s;
+   
+   }
+   
+   /* .image-container:hover .pastevents-img{
+   
+    filter: brightness(70%);
+    transform: scale(1.1);
+
+
+   } */
+   .pastevents-img:hover{
+    filter: brightness(70%);
+    transform: scale(1.1);
+
+   }

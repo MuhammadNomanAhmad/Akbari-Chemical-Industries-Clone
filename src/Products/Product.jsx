@@ -22,15 +22,29 @@ const Product = () => {
         <div className="row py-5">
           <div className="col-md-4 col-sm-10 ">
           <figure>
-            <img src={productimg1} alt="" className='img-fluid d-block' />
-            </figure>
+           <div className="product-container">
+          
+           <img src={productimg1} alt="" className=' d-block product-img' />
+           
+            <div className="content">
+              <h3>Sulpharic Acid</h3>
+            </div>
+           </div>
+           </figure>
+            
             <b>Sulphuric Acid
 </b>
 <p product-textparagragh>Sulphuric Acid is a strong dibasic acid. in addition, it is also a strong oxidizing and dehydrating agent. It is one of the most widely employed chemicals and enters into many industries, though infrequently appearing in the finished material.</p>
           </div>
           <div className="col-md-4 col-sm-10">
           <figure>
-            <img src={productimg2} alt="" className='img-fluid d-block' />
+          <div className="main-box">
+          <img src={productimg2} alt="" className='img-fluid d-block productimg2' />
+          <div className="main-box-text">
+            <h3>Sulphonic Acid(LABSA)</h3>
+          </div>
+          </div>
+            
             </figure>
             <b>Sulphonic Acid(LABSA)
 
@@ -38,8 +52,16 @@ const Product = () => {
 <p product-textparagragh>Linear Alkyl Benzene Sulphonic Acid (LABSA) Dodecyl Benzene Sulphonic Acid (DBSA), or simply Sulphonic Acid are few of the several names given to a type of organic acid that can be represented by the general formula R–SO2 –OH, where ‘R’ is usually a hydrocarbon side chain.</p>
           </div>
           <div className="col-md-4 col-sm-10">
+          
           <figure>
-            <img src={productimg3} alt="" className='img-fluid d-block' />
+          <div className="productBox">
+          <img src={productimg3} alt="" className='img-fluid d-block productBox-Image' />
+          <div className="productBox-Text">
+            <h3>Formic Acid</h3>
+          </div>
+          </div>
+
+            
             </figure>
             <b>Formic Acid
 
